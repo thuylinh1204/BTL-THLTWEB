@@ -130,5 +130,42 @@ month.onchange = function(){
     day.innerHTML = dayop;
 }
 
+// xóa tài khoản
+const _1S3 = $('._1S3-');
+const dele = _1S3.querySelector('._3WuR._1gOp');
+const ReactModal__Overlay = $('.ReactModal__Overlay');
 
-// end Tài khoản
+dele.onclick = function(e){
+    e.preventDefault();
+    ReactModal__Overlay.classList.add('ReactModal__Overlay--after-open');
+    document.getElementsByTagName("BODY")[0].style.overflowY = 'hidden';
+}
+
+const _3EUw = ReactModal__Overlay.querySelector('._3EUw');
+const close = _3EUw.querySelector('.egUi.B8bm');
+const huy = _3EUw.querySelector('._3WuR._1gOp');
+const _2k7K = _3EUw.querySelectorAll('._2k7K._3fHy')
+let _17Fo;
+let count;
+const Delete = _3EUw.querySelector('._3SdL._1_Kr')
+
+ReactModal__Overlay.onclick = function(e){
+    if(!_3EUw.contains(e.target) || close.contains(e.target) || huy == e.target){
+        ReactModal__Overlay.classList.remove('ReactModal__Overlay--after-open');
+        document.getElementsByTagName("BODY")[0].style.overflowY = 'initial';
+    }
+}
+
+_2k7K.forEach(function(item){
+    item.onclick = function(){
+        _17Fo = item.querySelector('._17Fo._1D3_');
+        _17Fo.classList.toggle('_3FsX');
+        count =  _3EUw.querySelectorAll('._17Fo._1D3_._3FsX').length;
+
+        if(count == 4){
+            Delete.disabled = false;
+        }else{
+            Delete.disabled = true;
+        }
+    }
+})

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tài khoản</title>
     <link rel="stylesheet" href="../../src/css/spendee.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <div id="app">
@@ -86,7 +87,7 @@
                                                                 <a href="account.html"class="_3WuR _1gOp selected"><span>Tài khoản</span></a>
                                                             </li>
                                                             <li>
-                                                                <a href="account.html"class="_3WuR _1gOp"><span>Tất cả các danh mục</span></a>
+                                                                <a href="all-categories.html"class="_3WuR _1gOp"><span>Tất cả các danh mục</span></a>
                                                             </li>
                                                             <li>
                                                                 <a href="account.html"class="_3WuR _1gOp"><span>Các TK ngân hàng được kết nối</span></a>
@@ -299,6 +300,63 @@
         </div>
     </div>
 
+    <!-- Xóa tài khoản -->
+
+    <div class="ReactModal__Overlay">
+        <div class="ReactModal__Content ReactModal__Content--after-open _2RxW" style="z-index: 1000;">
+            <div class="_3EUw">
+                <form action="">
+                    <article class="_2ZwS ">
+                        <div class="_13pY">
+                            <div class="_36Dk">
+                                <button type="button" class="egUi B8bm ">
+                                    <span class="_2nf9">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="import-step-1" transform="translate(-1252.000000, -166.000000)" fill="currentColor"><g id="import-dialog" transform="translate(420.000000, 158.000000)"><g transform="translate(824.000000, 0.000000)"><path d="M13,13 L8.00684547,13 C7.44994876,13 7,13.4477153 7,14 C7,14.5561352 7.45078007,15 8.00684547,15 L13,15 L13,19.9931545 C13,20.5500512 13.4477153,21 14,21 C14.5561352,21 15,20.5492199 15,19.9931545 L15,15 L19.9931545,15 C20.5500512,15 21,14.5522847 21,14 C21,13.4438648 20.5492199,13 19.9931545,13 L15,13 L15,8.00684547 C15,7.44994876 14.5522847,7 14,7 C13.4438648,7 13,7.45078007 13,8.00684547 L13,13 Z" id="Combined-Shape" transform="translate(14.000000, 14.000000) rotate(45.000000) translate(-14.000000, -14.000000) "></path></g></g></g></g></svg>
+                                    </span>
+                                </button>
+                            </div>
+                            <h1 class="_1Fvn">Xóa Tài khoản Spendee của bạn</h1>
+                            <div class="j4fJ">
+                                <p>Bạn sắp sửa xóa bỏ Tài Khoản Spendee của mình. Vui lòng xác nhận rằng bạn hiểu điều này có ý nghĩa gì. Sau đó xác minh bản thân bằng cách nhập lại mật khẩu tài khoản của bạn.</p>
+                                <div class="_1V4J">
+                                    <div class="_2k7K _3fHy">
+                                        <span class="_17Fo _1D3_">
+                                            <span class="_4Nff"></span>
+                                        </span>
+                                        Tôi hiểu rằng tất cả các ví của mình sẽ bị xóa vĩnh viễn (bao gồm các ví được chia sẻ và kết nối với các tài khoản ngân hàng).
+                                    </div>
+                                    <div class="_2k7K _3fHy">
+                                        <span class="_17Fo _1D3_">
+                                            <span class="_4Nff"></span>
+                                        </span>
+                                        Tôi hiểu rằng tất cả các giao dịch, ngân sách, và dữ liệu của mình trong các ví này sẽ bị xóa vĩnh viễn. (Các giao dịch trong ví chia sẻ sẽ trở thành các giao dịch của người sở hữu ví.)
+                                    </div>
+                                    <div class="_2k7K _3fHy">
+                                        <span class="_17Fo _1D3_">
+                                            <span class="_4Nff"></span>
+                                        </span>
+                                        <span>Tôi hiểu rằng tôi cần phải hủy thuê bao Spendee Plus hoặc Spendee Premium của mình bằng thủ công.</span>
+                                    </div>
+                                    <div class="_2k7K _3fHy">
+                                        <span class="_17Fo _1D3_">
+                                            <span class="_4Nff"></span>
+                                        </span>
+                                        Tôi hiểu rằng quá trình này là vĩnh viễn và không thể trở lại.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_2axu">
+                            <button type="submit" disabled="" class="_3SdL _1_Kr ">Xóa tài khoản</button>
+                            <a class="_3WuR _1gOp ">Hủy</a>
+                        </div>
+                    </article>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- End xóa tài khoản -->
     <script src="../../src/js/settings/account.js"></script>
 </body>
 </html>

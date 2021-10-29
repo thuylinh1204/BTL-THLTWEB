@@ -30,7 +30,6 @@ document.onclick = function(e){
     }
 }
 
-
 //  Lịch
 const _2pOY = $('._6Szy._2pOY');
 const _2sWB = $('._6Szy._2sWB');
@@ -69,6 +68,7 @@ _2pOY.onclick = function () {
 }
 
 
+
 // Theo số tiền
 const rc_slider = $('.rc-slider');
 const rc_slider_track = $('.rc-slider-track.rc-slider-track-1');
@@ -105,12 +105,10 @@ rc_slider.addEventListener('click', function (e) {
 //  scroll
 const UzPn = $('.UzPn._10vh');
 const Top = UzPn.offsetTop;
-
 document.onscroll = function(){
-    if(window.scrollY > Top){
+    if(window.scrollY >= Top){
         UzPn.classList.add('zpcn');
     }else{
         UzPn.classList.remove('zpcn');
     }
 }
-

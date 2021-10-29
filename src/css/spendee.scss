@@ -3,7 +3,8 @@
 @import 'settings/account';
 @import 'settings/support';
 @import 'settings/terms';
-@import 'wallet/generals';
+@import 'wallet/settings/categories';
+
 *{box-sizing: border-box;}
 
 $colorbd: #7b93a4;
@@ -50,7 +51,7 @@ nav,ul,ol{
         padding: 0;
         background: white;
         border-bottom: solid 1px #e5ebee;
-        box-shadow: 0 4px 8px 0 rgb(48 82 120 / 3%);
+        box-shadow: 0 4px 8px 0 rgba(48,82,120,0.3);
 
         .KaKx{
             display: flex;
@@ -261,7 +262,7 @@ nav,ul,ol{
                         z-index: 1000;
                         transform: translateY(-20px);
                         transition: all .15s ease-out;
-                        box-shadow: 0 4px 8px 0 rgb(48 82 120 / 16%);
+                        box-shadow: 0 4px 8px 0 rgba(48,82,120,0.16);
 
                         .navItem{
                             line-height: 36px;
@@ -301,7 +302,7 @@ nav,ul,ol{
                 .uZrZ._1z7D{
                     z-index: 950;
                     transition: z-index .35s step-start, box-shadow .35s ease-in, -webkit-box-shadow .35s ease-in;
-                    box-shadow: 0 4px 8px 0 rgb(48 82 120 / 16%);
+                    box-shadow: 0 4px 8px 0 rgba(48,82,120,0.16);
                 }
 
                 ._2XTe{
@@ -364,7 +365,7 @@ nav,ul,ol{
                                 border-radius: 8px;
                                 background-color: white;
                                 text-align: left;
-                                box-shadow: 0 4px 8px 0 rgb(48 82 120 / 8%);
+                                box-shadow: 0 4px 8px 0 rgba(48,82,120,0.8);
                                 transition: box-shadow .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
 
                                 ._2jD1{
@@ -447,7 +448,7 @@ nav,ul,ol{
                                 line-height: 42px;
                                 background-color: #ffffff;
                                 color: $colorText;
-                                box-shadow: 0 4px 8px 0 rgb(48 82 120 / 8%);
+                                box-shadow: 0 4px 8px 0 rgba(48,82,120,0.8);
                                 transition: all .2s ease-in-out;
                                 width: 100%;
                                 padding: 0 8px;
@@ -491,7 +492,7 @@ nav,ul,ol{
                         .egUi.addInverse._3SdL._2_oj._1mpn._3dgm {
                             background-color: #12c48b;
                             color: #fff;
-                            box-shadow: 0 4px 4px 0 rgb(17 195 139 / 20%);
+                            box-shadow: 0 4px 4px 0 rgba(17,195,139,0.20);
                             width: auto;
                             padding: 0 0.8em;
                             text-align: center;
@@ -511,7 +512,7 @@ nav,ul,ol{
                             white-space: nowrap;
 
                             &:hover{
-                                box-shadow: 0 5px 6px 0 rgb(17 195 139 / 32%);
+                                box-shadow: 0 5px 6px 0 rgba(17,195,139,0.32);
                             }
 
                             ._2nf9{
@@ -978,7 +979,7 @@ nav,ul,ol{
                                                             border-radius: 50%;
                                                             border: 1px solid #bbcdd8;
                                                             background-color: #fff;
-                                                            box-shadow: 0 1px 2px 0 rgb(50 76 91 / 16%);
+                                                            box-shadow: 0 1px 2px 0 rgba(50,76,91,0.16);
                                                         }
 
                                                         .rc-slider-handle.rc-slider-handle-2{
@@ -992,7 +993,7 @@ nav,ul,ol{
                                                             border-radius: 50%;
                                                             border: 1px solid #bbcdd8;
                                                             background-color: #fff;
-                                                            box-shadow: 0 1px 2px 0 rgb(50 76 91 / 16%);
+                                                            box-shadow: 0 1px 2px 0 rgba(50,76,91,0.16);
                                                         }
                                                     }
                                                 }
