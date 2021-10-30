@@ -702,10 +702,10 @@
 
             .jcQj{
                 position: relative;
-                z-index: 1;
                 transition: z-index .35s step-end;
 
                 ._3Vhx{
+                    display: block;
                     padding: 0 10px;
                     margin-left: -10px;
                     width: calc(100% + 20px);
@@ -1028,6 +1028,392 @@
                         }
                     }
                 }
+
+                ._33BO{
+                    display: none;
+                    position: relative;
+                    z-index: 950;
+        
+                    ._3PIU._3RzU{
+                        margin: 0 -15px;
+                        padding: 15px;
+                        background: white;
+                        position: relative;
+                        border-radius: 8px;
+        
+                        form{
+                            .oTaE{
+                                width: 100%;
+        
+                                .LB4I._2N9Y{
+                                    display: flex;
+                                    flex: 0 1 auto;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    align-items: flex-end;
+        
+                                    ._3fS2.o-cw._1B3o{
+                                        opacity: 1;
+                                        pointer-events: all;
+                                        display: initial;
+                                        flex-basis: 25%;
+                                        max-width: 25%;
+        
+                                        .LB4I{
+                                            display: flex;
+                                            flex: 0 1 auto;
+                                            flex-direction: row;
+                                            flex-wrap: wrap;
+        
+                                            ._3fS2._1ubS{
+                                                opacity: 1;
+                                                pointer-events: all;
+                                                display: initial;
+                                                flex-basis: 50%;
+                                                max-width: 50%;
+        
+                                                .iLEV.IhHS{
+                                                    display: block;
+                                                    position: relative;
+                
+                                                    .BVod{
+                                                        display: flex;
+                
+                                                        ._1Baa.inline.IhHS{
+                                                            margin-bottom: 3px;
+                                                            font-size: 12px;
+                                                            color: #7b93a4;
+                                                            flex-grow: 1;
+                                                            user-select: none;
+                                                            cursor: pointer;
+                                                        }
+                                                    }
+                
+                                                    ._3Iet.IhHS{
+                                                        display: flex;
+                                                        width: 100%;
+                                                        border-radius: 4px;
+                                                        align-items: stretch;
+                                                        background-color: #fff;                                               
+                                                        color: #324c5b;
+                
+                                                        &:hover{
+                                                            ._2ieP{
+                                                                div{
+                                                                    ._10jr{
+                                                                        border-color: #bbcdd8;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                
+                                                        ._2ieP{
+                                                            display: flex;
+                                                            align-items: stretch;
+                                                            width: 100%;
+                                                            flex-grow: 1;
+                
+                                                            div{
+                                                                width: 100%;
+                                                                position: relative;
+        
+                                                                ._10jr{
+                                                                    position: relative;
+                                                                    border: 1px solid transparent;
+                                                                    border-color: #e5ebee;
+        
+                                                                    &:hover{
+                                                                        ._1BZ3{
+                                                                            ._24dr{
+                                                                                ._1lxA{
+                                                                                    border-color: #324c5b;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+        
+                                                                    ._1BZ3{
+                                                                        display: flex;
+                                                                        align-items: stretch;
+                                                                        min-height: 36px;
+        
+                                                                        ._2s9x{
+                                                                            background: none;
+                                                                            border: none;
+                                                                            flex-grow: 1;
+                                                                            padding-left: 10px;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            justify-content: flex-start;
+        
+                                                                            ._3-9b._2_Bp{
+                                                                                min-width: 28px;
+                                                                                min-height: 28px;
+                                                                                max-height: 28px;
+                                                                                width: 28px;
+                                                                                height: 28px;
+                                                                                border-radius: 100%;
+                                                                                display: flex;
+                                                                                align-items: center;
+                                                                                justify-content: center;
+                                                                                color: white;
+        
+                                                                                svg{
+                                                                                    fill: white;
+                                                                                    width: 16px;
+                                                                                    height: 16px;
+                                                                                }
+                                                                            }
+                                                                        }
+        
+                                                                        ._24dr{
+                                                                            cursor: pointer;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            padding-right: 11px;
+                                                                            background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white 30%);
+                                                                            border-radius: 0px 4px 4px 0;
+        
+                                                                            ._1lxA{
+                                                                                position: relative;
+                                                                                display: block;
+                                                                                height: 8px;
+                                                                                width: 8px;
+                                                                                margin-top: -2px;
+                                                                                border: 2px solid #bbcdd8;
+                                                                                border-right-width: 0;
+                                                                                border-top-width: 0;
+                                                                                transform: rotate(
+                                                                                    -45deg);
+                                                                                transition: all .2s ease-in-out;
+                                                                            }
+                                                                        }
+                                                                    }
+        
+                                                                    ._1BZ3.open{
+                                                                        ._24dr{
+                                                                            ._1lxA{
+                                                                                transform: rotate(135deg);
+                                                                                border-color: #324c5b;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+        
+                                                                .Select-menu-outer-wrapper{
+                                                                    position: absolute;
+                                                                    top: 41px;
+                                                                    left: 0;
+                                                                    width: 300%;
+                                                                    height: auto;
+                                                                    max-height: 300px;
+                                                                    overflow: auto;
+                                                                    border: 1px solid #bbcdd8;
+                                                                    border-radius: 4px;
+                                                                    background-color: white;
+                                                                    padding: 15px;
+                                                                    display: none; 
+                                                                    grid-template-columns: auto auto auto;
+                                                                    grid-row-gap: 20px;
+        
+                                                                    ._2s9x{
+                                                                        padding: 0;
+                                                                        background: none;
+                                                                        border: none;
+                                                                        flex-basis: 33.33%;
+                                                                        display: flex;
+                                                                        justify-content: center;
+        
+                                                                        span{
+                                                                            display: block;
+                                                                            height: 40px;
+                                                                            width: 40px;
+                                                                            border-radius: 100%;
+                                                                            padding: 0;
+                                                                            border: none;
+                                                                            position: relative;
+        
+                                                                            svg{
+                                                                                position: absolute;
+                                                                                top: 14%;
+                                                                                left: 18%;
+                                                                                fill: white;
+                                                                                width: 25px;
+                                                                                height: 25px;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+        
+                                    ._3fS2.o-cw._1Nti{
+                                        opacity: 1;
+                                        pointer-events: all;
+                                        display: initial;
+                                        flex-basis: 50%;
+                                        max-width: 50%;
+        
+                                        .iLEV.IhHS{
+                                            display: block;
+                                            position: relative;
+        
+                                            .BVod{
+                                                display: flex;
+        
+                                                ._1Baa.inline.IhHS{
+                                                    margin-bottom: 3px;
+                                                    font-size: 12px;
+                                                    color: #7b93a4;
+                                                    flex-grow: 1;
+                                                    user-select: none;
+                                                    cursor: pointer;
+                                                }
+                                            }
+        
+                                            ._3Iet.IhHS{
+                                                display: flex;
+                                                width: 100%;
+                                                border-radius: 4px;
+                                                align-items: stretch;
+                                                border: 1px solid transparent;
+                                                background-color: #fff;
+                                                border-color: #e5ebee;
+                                                color: #324c5b;
+        
+                                                &:hover{
+                                                    border-color: #bbcdd8;
+                                                }
+        
+                                                ._2ieP{
+                                                    display: flex;
+                                                    align-items: stretch;
+                                                    width: 100%;
+                                                    flex-grow: 1;
+        
+                                                    ._1mYU.required{
+                                                        width: 100%;
+                                                        padding: 0 8px;
+                                                        background-color: transparent;
+                                                        border: none;
+                                                        font-size: 14px;
+                                                        height: 36px;
+                                                        outline: none;
+                                                        line-height: 36px;
+                                                        transition: color .2s ease-in-out;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+        
+                                    ._3fS2.o-cw._1B3o1{
+                                        opacity: 1;
+                                        pointer-events: all;
+                                        display: initial;
+                                        flex-basis: 25%;
+                                        max-width: 25%;
+        
+                                        ._3SdL._2_oj {
+                                            background-color: #12c48b;
+                                            color: #fff;
+                                            transition: all .2s ease-in-out;
+                                            height: 38px;
+                                            position: relative;
+                                            display: block;
+                                            line-height: 34px;
+                                            width: 100%;
+                                            padding: 0 8px;
+                                            border-radius: 4px;
+                                            text-align: center;
+                                            text-decoration: none;
+                                            cursor: pointer;
+                                            outline: none;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            border: none;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;
+        
+                                            &:disabled{
+                                                background-color: #e5ebee;
+                                                color: #7b93a4;
+                                                box-shadow: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                ._2XTe{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    pointer-events: none;
+                    opacity: 0;
+                    background: rgba(0, 0, 0, .6);
+                    z-index: 800;
+                    width: 100vw;
+                }
+            }
+
+            .jcQj._2Xou{
+                ._3Vhx{
+                    display: none;
+                }
+
+                ._33BO{
+                    display: block;
+                }
+
+                ._2XTe._2Gxn{
+                    opacity: .6;
+                    pointer-events: all;
+                    transition: opacity .3s;
+                }
+            }
+        }
+    }
+}
+
+._2GnZ{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    .I7xv{
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+
+        ._3-9b._3NXo{
+            min-width: 64px;
+            min-height: 64px;
+            max-height: 64px;
+            width: 64px;
+            height: 64px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+            img{
+                width: 64px;
+                height: 64px;
+                object-fit: cover;
             }
         }
     }
