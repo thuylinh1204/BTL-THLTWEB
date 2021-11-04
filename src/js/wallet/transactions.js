@@ -1,6 +1,25 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
+// Thêm giao dịch
+const UzPn = $('.UzPn._10vh');
+const addInverse = UzPn.querySelector('.egUi.addInverse._3SdL._2_oj._1mpn._3dgm');
+const _2XTe1 = UzPn.querySelector('._2XTe');
+let check2 = false;
+const addTranslation = {
+    handleEvents: function () {
+        addInverse.onclick = function () {
+            UzPn.classList.add('_3Eyk');
+            _2XTe1.classList.add('_2Gxn');
+        }
+    },
+    start: function(){
+        this.handleEvents();
+    }
+}
+
+addTranslation.start();
+
 // Chỉnh sửa giao dich
 const _1BwG = $$('._1BwG._1tO1');
 let _2k7K;
@@ -58,6 +77,20 @@ document.onclick = function(e){
                 check1 = true;     
             }          
         })
+    }
+
+    if(check2){
+        const egUi = UzPn.querySelector('.egUi.B8bm');      // nút x
+        const closeSecondary  = UzPn.querySelector('.egUi.closeSecondary._3SdL._3zVS._1mpn._3dgm');   // nút đóng
+        if(_2XTe1 == e.target || egUi.contains(e.target) || closeSecondary.contains(e.target)){
+            _2XTe1.classList.remove('_2Gxn');
+            UzPn.classList.remove('_3Eyk');
+            check2 = false;
+        }
+    }else{
+        if(addInverse.contains(e.target)){
+            check2 = true;
+        }
     }
 }
 
@@ -131,7 +164,6 @@ rc_slider.addEventListener('click', function (e) {
 });
 
 //  scroll
-const UzPn = $('.UzPn._10vh');
 document.onscroll = function(){
     if(window.scrollY > 60){
         UzPn.classList.add('zpcn');
