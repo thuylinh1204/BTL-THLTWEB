@@ -1,0 +1,1420 @@
+._33IL._3TLW{
+    div{
+        ._2XTe{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            opacity: 0;
+            background: rgba(0, 0, 0, .6);
+            z-index: 800;
+            width: 100vw;
+        }
+
+        ._2XTe._2Gxn{
+            opacity: .6;
+            pointer-events: all;
+            transition: opacity .3s;
+        }
+
+        ._33BO{
+            position: relative;
+            z-index: 1;
+
+            ._3PIU._3RzU{
+                margin: 0 -15px;
+                padding: 15px;
+                background: white;
+                position: relative;
+                border-radius: 8px;
+
+                form{
+                    .oTaE{
+                        width: 100%;
+
+                        .LB4I._2N9Y{
+                            display: flex;
+                            flex: 0 1 auto;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            align-items: flex-end;
+
+                            ._3fS2.o-cw._1B3o{
+                                opacity: 1;
+                                pointer-events: all;
+                                display: initial;
+                                flex-basis: 25%;
+                                max-width: 25%;
+
+                                .LB4I{
+                                    display: flex;
+                                    flex: 0 1 auto;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+
+                                    ._3fS2._1ubS{
+                                        opacity: 1;
+                                        pointer-events: all;
+                                        display: initial;
+                                        flex-basis: 50%;
+                                        max-width: 50%;
+
+                                        .iLEV.IhHS{
+                                            display: block;
+                                            position: relative;
+        
+                                            .BVod{
+                                                display: flex;
+        
+                                                ._1Baa.inline.IhHS{
+                                                    margin-bottom: 3px;
+                                                    font-size: 12px;
+                                                    color: #7b93a4;
+                                                    flex-grow: 1;
+                                                    user-select: none;
+                                                    cursor: pointer;
+                                                }
+                                            }
+        
+                                            ._3Iet.IhHS{
+                                                display: flex;
+                                                width: 100%;
+                                                border-radius: 4px;
+                                                align-items: stretch;
+                                                background-color: #fff;                                               
+                                                color: #324c5b;
+        
+                                                &:hover{
+                                                    ._2ieP{
+                                                        div{
+                                                            ._10jr{
+                                                                border-color: #bbcdd8;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+        
+                                                ._2ieP{
+                                                    display: flex;
+                                                    align-items: stretch;
+                                                    width: 100%;
+                                                    flex-grow: 1;
+        
+                                                    div{
+                                                        width: 100%;
+                                                        position: relative;
+
+                                                        ._10jr{
+                                                            position: relative;
+                                                            border: 1px solid transparent;
+                                                            border-color: #e5ebee;
+
+                                                            &:hover{
+                                                                ._1BZ3{
+                                                                    ._24dr{
+                                                                        ._1lxA{
+                                                                            border-color: #324c5b;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+
+                                                            ._1BZ3{
+                                                                display: flex;
+                                                                align-items: stretch;
+                                                                min-height: 36px;
+
+                                                                ._2s9x{
+                                                                    background: none;
+                                                                    border: none;
+                                                                    flex-grow: 1;
+                                                                    padding-left: 10px;
+                                                                    display: flex;
+                                                                    align-items: center;
+                                                                    justify-content: flex-start;
+
+                                                                    ._3-9b._2_Bp{
+                                                                        min-width: 28px;
+                                                                        min-height: 28px;
+                                                                        max-height: 28px;
+                                                                        width: 28px;
+                                                                        height: 28px;
+                                                                        border-radius: 100%;
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        justify-content: center;
+                                                                        color: white;
+
+                                                                        svg{
+                                                                            fill: white;
+                                                                            width: 16px;
+                                                                            height: 16px;
+                                                                        }
+                                                                    }
+                                                                }
+
+                                                                ._24dr{
+                                                                    cursor: pointer;
+                                                                    display: flex;
+                                                                    align-items: center;
+                                                                    padding-right: 11px;
+                                                                    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white 30%);
+                                                                    border-radius: 0px 4px 4px 0;
+
+                                                                    ._1lxA{
+                                                                        position: relative;
+                                                                        display: block;
+                                                                        height: 8px;
+                                                                        width: 8px;
+                                                                        margin-top: -2px;
+                                                                        border: 2px solid #bbcdd8;
+                                                                        border-right-width: 0;
+                                                                        border-top-width: 0;
+                                                                        transform: rotate(
+                                                                            -45deg);
+                                                                        transition: all .2s ease-in-out;
+                                                                    }
+                                                                }
+                                                            }
+
+                                                            ._1BZ3.open{
+                                                                ._24dr{
+                                                                    ._1lxA{
+                                                                        transform: rotate(135deg);
+                                                                        border-color: #324c5b;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+
+                                                        .Select-menu-outer-wrapper{
+                                                            position: absolute;
+                                                            top: 41px;
+                                                            left: 0;
+                                                            width: 300%;
+                                                            height: auto;
+                                                            max-height: 300px;
+                                                            overflow: auto;
+                                                            border: 1px solid #bbcdd8;
+                                                            border-radius: 4px;
+                                                            background-color: white;
+                                                            padding: 15px;
+                                                            display: none; 
+                                                            grid-template-columns: auto auto auto;
+                                                            grid-row-gap: 20px;
+
+                                                            ._2s9x{
+                                                                padding: 0;
+                                                                background: none;
+                                                                border: none;
+                                                                flex-basis: 33.33%;
+                                                                display: flex;
+                                                                justify-content: center;
+
+                                                                span{
+                                                                    display: block;
+                                                                    height: 40px;
+                                                                    width: 40px;
+                                                                    border-radius: 100%;
+                                                                    padding: 0;
+                                                                    border: none;
+                                                                    position: relative;
+
+                                                                    svg{
+                                                                        position: absolute;
+                                                                        top: 14%;
+                                                                        left: 18%;
+                                                                        fill: white;
+                                                                        width: 25px;
+                                                                        height: 25px;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            ._3fS2.o-cw._1Nti{
+                                opacity: 1;
+                                pointer-events: all;
+                                display: initial;
+                                flex-basis: 33.33333333%;
+                                max-width: 33.33333333%;
+
+                                .iLEV.IhHS{
+                                    display: block;
+                                    position: relative;
+
+                                    .BVod{
+                                        display: flex;
+
+                                        ._1Baa.inline.IhHS{
+                                            margin-bottom: 3px;
+                                            font-size: 12px;
+                                            color: #7b93a4;
+                                            flex-grow: 1;
+                                            user-select: none;
+                                            cursor: pointer;
+                                        }
+                                    }
+
+                                    ._3Iet.IhHS{
+                                        display: flex;
+                                        width: 100%;
+                                        border-radius: 4px;
+                                        align-items: stretch;
+                                        border: 1px solid transparent;
+                                        background-color: #fff;
+                                        border-color: #e5ebee;
+                                        color: #324c5b;
+
+                                        &:hover{
+                                            border-color: #bbcdd8;
+                                        }
+
+                                        ._2ieP{
+                                            display: flex;
+                                            align-items: stretch;
+                                            width: 100%;
+                                            flex-grow: 1;
+
+                                            ._1mYU.required{
+                                                width: 100%;
+                                                padding: 0 8px;
+                                                background-color: transparent;
+                                                border: none;
+                                                font-size: 14px;
+                                                height: 36px;
+                                                outline: none;
+                                                line-height: 36px;
+                                                transition: color .2s ease-in-out;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            ._3fS2.o-cw._5CwE{
+                                opacity: 1;
+                                pointer-events: all;
+                                display: initial;
+                                flex-basis: 16.66666667%;
+                                max-width: 16.66666667%;
+
+                                .iLEV.IhHS{
+                                    display: block;
+                                    position: relative;
+
+                                    .BVod{
+                                        display: flex;
+
+                                        ._1Baa.inline.IhHS{
+                                            margin-bottom: 3px;
+                                            font-size: 12px;
+                                            color: #7b93a4;
+                                            flex-grow: 1;
+                                            user-select: none;
+                                            cursor: pointer;
+                                        }
+                                    }
+
+                                    ._3Iet.IhHS{
+                                        display: flex;
+                                        width: 100%;
+                                        border-radius: 4px;
+                                        align-items: stretch;
+                                        border: 1px solid transparent;
+                                        background-color: #fff;
+                                        border-color: #e5ebee;
+                                        color: #324c5b;
+
+                                        &:hover{
+                                            border-color: #bbcdd8;
+
+                                            ._2ieP{
+                                                .Select-control{
+                                                    .Select-arrow-zone{
+                                                        .Select-arrow{
+                                                            border-color: #324c5b;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        ._2ieP{
+                                            display: flex;
+                                            align-items: stretch;
+                                            width: 100%;
+                                            flex-grow: 1;
+                                            position: relative;
+
+                                            .Select-control{
+                                                border-radius: 4px;
+                                                color: #333;
+                                                cursor: default;
+                                                display: table;
+                                                border-spacing: 0;
+                                                border-collapse: separate;
+                                                height: 36px;
+                                                outline: none;
+                                                overflow: hidden;
+                                                position: relative;
+                                                width: 100%;
+
+                                                .Select-multi-value-wrapper{
+                                                    .Select-value{
+                                                        bottom: 0;
+                                                        color: #324c5b;
+                                                        left: 0;
+                                                        line-height: 38px;
+                                                        padding-left: 10px;
+                                                        padding-right: 10px;
+                                                        position: absolute;
+                                                        right: 0;
+                                                        top: 0;
+                                                        max-width: 100%;
+                                                        overflow: hidden;
+                                                        text-overflow: ellipsis;
+                                                        white-space: nowrap;
+                                                        font-size: 14px;
+                                                        display: flex;
+                                                        align-items: center;
+
+                                                        .Select-value-label{
+                                                            bottom: 0;
+                                                            color: #324c5b;
+                                                            left: 0;
+                                                            line-height: 38px;
+                                                            padding-left: 10px;
+                                                            padding-right: 10px;
+                                                            position: absolute;
+                                                            right: 0;
+                                                            top: 0;
+                                                            max-width: 100%;
+                                                            overflow: hidden;
+                                                            text-overflow: ellipsis;
+                                                            white-space: nowrap;
+                                                            font-size: 14px;
+                                                            display: flex;
+                                                            align-items: center;
+                                                        }
+                                                    }
+                                                }
+
+                                                .Select-arrow-zone{
+                                                    cursor: pointer;
+                                                    display: table-cell;
+                                                    position: relative;
+                                                    text-align: center;
+                                                    vertical-align: middle;
+                                                    width: 8px;
+                                                    padding: 0 11px;
+                                                    background-image: linear-gradient( to right, rgba(255, 255, 255, 0), white 30% );
+                                                    overflow: hidden;
+                                                    border-radius: 4px;
+
+                                                    .Select-arrow{
+                                                        transition: all 0.2s ease-in-out;
+                                                        position: relative;
+                                                        display: block;
+                                                        height: 8px;
+                                                        width: 8px;
+                                                        margin-top: -2px;
+                                                        border: 2px solid #bbcdd8;
+                                                        border-right-width: 0;
+                                                        border-top-width: 0;
+                                                        transform: rotate(
+                                                            -45deg);
+                                                    }
+                                                }
+                                            }
+
+                                            .Select-control.open{
+                                                .Select-arrow-zone{
+                                                    .Select-arrow{
+                                                        transform: rotate(135deg);
+                                                        border-color: #324c5b;
+                                                    }
+                                                }
+                                            }
+
+                                            .Select-menu-outer-wrapper{
+                                                position: absolute;
+                                                top: 41px;
+                                                height: auto;
+                                                left: 0;
+                                                right: 0;
+                                                border: 1px solid #bbcdd8;
+                                                border-radius: 4px;
+                                                background-color: white;
+                                                display: none;
+                                               
+                                                .Select-value{
+                                                    color: #324c5b;
+                                                    height: 34px;
+                                                    line-height: 38px;
+                                                    padding-left: 10px;
+                                                    padding-right: 10px;
+                                                    max-width: 100%;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                    white-space: nowrap;
+                                                    font-size: 14px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    cursor: default;
+
+                                                    &:hover{
+                                                        background-color: #bbcdd8;
+                                                    }
+
+                                                    .Select-value-label{
+                                                        color: #324c5b;
+                                                        line-height: 38px;
+                                                        max-width: 100%;
+                                                        overflow: hidden;
+                                                        text-overflow: ellipsis;
+                                                        white-space: nowrap;
+                                                        font-size: 14px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                    }
+
+                                                    .Select-value-label.selected{
+                                                        font-weight: 600;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            ._3fS2.o-cw._1B3o1{
+                                opacity: 0;
+                                pointer-events: all;
+                                display: initial;
+                                flex-basis: 25%;
+                                max-width: 25%;
+
+                                ._3SdL._2_oj {
+                                    background-color: #12c48b;
+                                    color: #fff;
+                                    transition: all .2s ease-in-out;
+                                    height: 38px;
+                                    position: relative;
+                                    display: block;
+                                    line-height: 34px;
+                                    width: 100%;
+                                    padding: 0 8px;
+                                    border-radius: 4px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    cursor: pointer;
+                                    outline: none;
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    border: none;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+
+                                    &:disabled{
+                                        background-color: #e5ebee;
+                                        color: #7b93a4;
+                                        box-shadow: none;
+                                    }
+                                }
+                            }
+
+                            ._3fS2.o-cw._1B3o1._259J{
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        ._33BO._1j3Q{
+            z-index: 950;
+        }
+    }
+}
+
+.UzPn._2pdK{
+    position: sticky;
+    background: #fff;
+    z-index: 9;
+    margin: 0 -1em;
+    padding: 0 1em;
+
+    &::after{
+        z-index: 10;
+        content: "";
+        pointer-events: none;
+        position: absolute;
+        top: 100%;
+        height: 10px;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(180deg, rgba(48, 82, 120, .12), rgba(48, 82, 120, .0));
+        opacity: 0;
+        display: block;
+    }
+
+    ._33IL._2f5h{
+        padding: 12px 0;
+        background-color: transparent;
+        margin: 20px 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+        .LB4I{
+            display: flex;
+            flex: 0 1 auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            ._3fS2.zmS5{
+                opacity: 1;
+                pointer-events: all;
+                display: initial;
+                flex-basis: 33.33333333%;
+                max-width: 33.33333333%;
+
+                div{
+                    ._3SdL{
+                        color: #12c48b;
+                        background-color: #e7f9f3;
+                        cursor: initial;
+                        position: relative;
+                        display: block;
+                        height: 34px;
+                        line-height: 34px;
+                        width: 100%;
+                        padding: 0 8px;
+                        border-radius: 4px;
+                        text-align: center;
+                        text-decoration: none;
+                        outline: none;
+                        font-size: 14px;
+                        font-weight: 600;
+                        border: none;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    ._3SdL._3j13 {
+                        &:disabled{
+                            background-color: #e5ebee;
+                            color: #7b93a4;
+                            box-shadow: none;
+                            cursor: pointer;
+                        }
+
+                        color: #12c48b;
+                        background-color: #e7f9f3;
+                    }
+
+                    ._3SdL.DfeI {
+                        &:disabled{
+                            background-color: #e5ebee;
+                            color: #7b93a4;
+                            box-shadow: none;
+                            cursor: pointer;
+                        }
+
+                        background-color: #feefef;
+                        color: #f14c52;
+                    }
+                }
+
+                ._3SdL._2_oj {
+                    opacity: 0;
+                    transform: translateY(30%);
+                    visibility: hidden;
+                    transition: all .2s ease-in-out;
+                    background-color: #12c48b;
+                    color: #fff;
+                    cursor: pointer;
+                    position: relative;
+                    display: block;
+                    height: 34px;
+                    line-height: 34px;
+                    width: 100%;
+                    padding: 0 8px;
+                    border-radius: 4px;
+                    text-align: center;
+                    text-decoration: none;
+                    outline: none;
+                    font-size: 14px;
+                    font-weight: 600;
+                    border: none;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+
+.UzPn._2pdK._2i1J{
+    &::after{
+        left: calc(-120px + 1em);
+        right: calc(-120px + 1em);
+        opacity: 1;
+        transition: opacity .2s ease-in-out;
+    }
+
+    ._33IL._2f5h{
+        .LB4I{
+            ._3fS2.zmS5{
+                ._3SdL._2_oj._1rIk{
+                    visibility: visible;
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+}
+
+._33IL{
+    padding: 12px 0;
+    background-color: transparent;
+    margin: 20px 0;
+    border: 0;
+
+    div{
+        div{
+            // cursor: move;
+
+            .jcQj{
+                position: relative;
+                transition: z-index .35s step-end;
+
+                ._3Vhx{
+                    display: block;
+                    padding: 0 10px;
+                    margin-left: -10px;
+                    width: calc(100% + 20px);
+                    font-size: 14px;
+                    border-radius: 8px;
+                    background: #fff;
+
+                    &:active{
+                        background: #f6f9fb;
+                    }
+
+                    &:hover{
+                        background: #f6f9fb;
+
+                        .oTaE{
+                            .LB4I{
+                                ._3fS2._qSI._1SCp{
+                                    .xTNW{
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .oTaE{
+                        width: 100%;
+
+                        .LB4I{
+                            display: flex;
+                            flex: 0 1 auto;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+
+                            ._3fS2._1Vxc._17rK{
+                                display: flex;
+                                flex-shrink: 0;
+                                margin-right: -1rem;
+                                opacity: 1;
+                                pointer-events: all;
+                                flex-basis: 8.33333333%;
+                                max-width: 8.33333333%;
+
+                                ._2k7K{
+                                    font-size: 14px;
+                                    color: #7b93a4;
+                                    display: flex;
+                                    align-items: center;
+                                    transition: color .2s ease-in-out;
+
+                                    &:hover{
+                                        ._17Fo{
+                                            border-color: #12c48b;
+                                        }
+                                    }
+
+                                    ._17Fo{
+                                        width: 20px;
+                                        min-width: 20px;
+                                        height: 20px;
+                                        min-height: 20px;
+                                        border-radius: 4px;
+                                        border: 1px solid transparent;
+                                        border-color: #e5ebee;
+                                        position: relative;
+
+                                        ._4Nff{
+                                            display: inline-flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            border-radius: 4px;
+                                            transition: box-shadow .2s cubic-bezier(0,1.05,.72,1.07), -webkit-box-shadow .2s cubic-bezier(0,1.05,.72,1.07);
+                                            cursor: pointer;
+                                            width: 20px;
+                                            min-width: 20px;
+                                            height: 20px;
+                                            min-height: 20px;
+                                            border-color: #e5ebee;
+                                            top: -1px;
+                                            left: -1px;
+                                            position: absolute;
+
+                                            &::after{
+                                                content: '';
+                                                position: absolute;
+                                                top: 2px;
+                                                left: 7px;
+                                                width: 5px;
+                                                height: 11px;
+                                                opacity: 0;
+                                                transform: rotate(
+                                                    45deg) scale(0);
+                                                border-right: 2px solid #fff;
+                                                border-bottom: 2px solid #fff;
+                                                transition: all .2s ease;
+                                                transition-delay: .15s;
+                                            }
+                                        }                                   
+                                    }
+
+                                    ._17Fo._3FsX{
+                                        ._4Nff{
+                                            box-shadow: 0px 0px 0px 10px #12c48b inset;
+
+                                            &::after{
+                                                opacity: 1;
+                                                transform: rotate(
+                                                    45deg) scale(1);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            ._3fS2._qSI._1Vxc{
+                                flex-grow: initial;
+                                display: flex;
+                                align-items: center;
+                                flex-shrink: 0;
+                                opacity: 1;
+                                pointer-events: all;
+                                flex-basis: 8.33333333%;
+                                max-width: 8.33333333%;
+
+                                ._3-9b._1Oob{
+                                    min-width: 34px;
+                                    min-height: 34px;
+                                    max-height: 34px;
+                                    width: 34px;
+                                    height: 34px;
+                                    border-radius: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    color: white;
+
+                                    img{
+                                        width: 34px;
+                                        height: 34px;
+                                        object-fit: cover;
+                                    }
+                                }
+                            }
+
+                            ._3fS2._25CJ._2i70{
+                                display: flex;
+                                flex-grow: 1;
+                                align-items: center;
+                                padding-left: 0 !important;
+                                padding-right: 0 !important;
+                                flex-basis: 0;
+                                max-width: 100%;
+
+                                ._2ji_{
+                                    width: 100%;
+                                    display: flex;
+
+                                    ._1a7-{
+                                        flex: 2;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                    }
+
+                                    ._2eNp{
+                                        flex: 3;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                    }
+                                }
+                            }
+
+                            ._3fS2._qSI._1SCp{
+                                display: flex;
+                                flex-grow: initial;
+                                flex-shrink: 0;
+                                align-items:center;
+                                flex-basis: 0;
+                                max-width: 100%;
+
+                                .xTNW{
+                                    opacity: 0;
+                                    transition: opacity 0.3s;
+
+                                    ._3_DJ{
+                                        background-color: #e5ebee;
+                                        height: 34px;
+                                        line-height: 34px;
+                                        padding: 0 8px;
+                                        border-radius: 4px;
+                                        width: 100%;
+                                        display: block;
+                                        text-align: center;
+                                        cursor: ns-resize;
+                                    }
+                                }
+                            }
+
+                            ._3fS2._qSI.IY3U{
+                                flex-grow: initial;
+                                display: flex;
+                                align-items: center;
+                                flex-shrink: 0;
+                                flex-basis: 0;
+                                max-width: 100%;
+
+                                .egUi.settings._3SdL._3j13 {
+                                    color: #12c48b;
+                                    background-color: #e7f9f3;
+                                    text-align: center;
+                                    position: relative;
+                                    display: block;
+                                    height: 34px;
+                                    line-height: 34px;
+                                    width: 100%;
+                                    padding: 0 8px;
+                                    border-radius: 4px;
+                                    text-decoration: none;
+                                    cursor: pointer;
+                                    outline: none;
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    border: none;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+
+                                    ._2nf9{
+                                        display: inline-block;
+                                        position: relative;
+                                        top: -1px;
+
+                                        svg{
+                                            fill: #12c48b;
+                                        }
+                                    }
+                                }
+                            }
+
+                            ._3fS2._qSI{
+                                flex-grow: initial;
+                                display: flex;
+                                align-items: center;
+                                flex-shrink: 0;
+                                flex-basis: 0;
+                                max-width: 100%;
+
+                                form{
+                                    ._3SdL._3j13 {
+                                        color: #12c48b;
+                                        background-color: #e7f9f3;
+                                        text-align: center;
+                                        position: relative;
+                                        display: block;
+                                        height: 34px;
+                                        line-height: 34px;
+                                        width: 100%;
+                                        padding: 0 8px;
+                                        border-radius: 4px;
+                                        text-decoration: none;
+                                        cursor: pointer;
+                                        outline: none;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        border: none;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+    
+                                        svg{
+                                            fill: #12c48b;
+                                        }
+                                    }
+                                }
+                            }
+
+                            ._3fS2._qSI._3wbh{
+                                flex-grow: initial;
+                                display: flex;
+                                align-items: center;
+                                flex-shrink: 0;
+                                flex-basis: 0;
+                                max-width: 100%;
+
+                                div{
+                                    .egUi.removeInverse._3SdL.DfeI {
+                                        color: #f14c52;
+                                        background-color: #e7f9f3;
+                                        text-align: center;
+                                        position: relative;
+                                        display: block;
+                                        height: 34px;
+                                        line-height: 34px;
+                                        width: 100%;
+                                        padding: 0 8px;
+                                        border-radius: 4px;
+                                        text-decoration: none;
+                                        cursor: pointer;
+                                        outline: none;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        border: none;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+    
+                                        ._2nf9{
+                                            display: inline-block;
+                                            position: relative;
+                                            top: -1px;
+    
+                                            svg{
+                                                fill: #f14c52;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                ._33BO{
+                    display: none;
+                    position: relative;
+                    z-index: 950;
+        
+                    ._3PIU._3RzU{
+                        margin: 0 -15px;
+                        padding: 15px;
+                        background: white;
+                        position: relative;
+                        border-radius: 8px;
+        
+                        form{
+                            .oTaE{
+                                width: 100%;
+        
+                                .LB4I._2N9Y{
+                                    display: flex;
+                                    flex: 0 1 auto;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    align-items: flex-end;
+        
+                                    ._3fS2.o-cw._1B3o{
+                                        opacity: 1;
+                                        pointer-events: all;
+                                        display: initial;
+                                        flex-basis: 25%;
+                                        max-width: 25%;
+        
+                                        .LB4I{
+                                            display: flex;
+                                            flex: 0 1 auto;
+                                            flex-direction: row;
+                                            flex-wrap: wrap;
+        
+                                            ._3fS2._1ubS{
+                                                opacity: 1;
+                                                pointer-events: all;
+                                                display: initial;
+                                                flex-basis: 50%;
+                                                max-width: 50%;
+        
+                                                .iLEV.IhHS{
+                                                    display: block;
+                                                    position: relative;
+                
+                                                    .BVod{
+                                                        display: flex;
+                
+                                                        ._1Baa.inline.IhHS{
+                                                            margin-bottom: 3px;
+                                                            font-size: 12px;
+                                                            color: #7b93a4;
+                                                            flex-grow: 1;
+                                                            user-select: none;
+                                                            cursor: pointer;
+                                                        }
+                                                    }
+                
+                                                    ._3Iet.IhHS{
+                                                        display: flex;
+                                                        width: 100%;
+                                                        border-radius: 4px;
+                                                        align-items: stretch;
+                                                        background-color: #fff;                                               
+                                                        color: #324c5b;
+                
+                                                        &:hover{
+                                                            ._2ieP{
+                                                                div{
+                                                                    ._10jr{
+                                                                        border-color: #bbcdd8;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                
+                                                        ._2ieP{
+                                                            display: flex;
+                                                            align-items: stretch;
+                                                            width: 100%;
+                                                            flex-grow: 1;
+                
+                                                            div{
+                                                                width: 100%;
+                                                                position: relative;
+        
+                                                                ._10jr{
+                                                                    position: relative;
+                                                                    border: 1px solid transparent;
+                                                                    border-color: #e5ebee;
+        
+                                                                    &:hover{
+                                                                        ._1BZ3{
+                                                                            ._24dr{
+                                                                                ._1lxA{
+                                                                                    border-color: #324c5b;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+        
+                                                                    ._1BZ3{
+                                                                        display: flex;
+                                                                        align-items: stretch;
+                                                                        min-height: 36px;
+        
+                                                                        ._2s9x{
+                                                                            background: none;
+                                                                            border: none;
+                                                                            flex-grow: 1;
+                                                                            padding-left: 10px;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            justify-content: flex-start;
+        
+                                                                            ._3-9b._2_Bp{
+                                                                                min-width: 28px;
+                                                                                min-height: 28px;
+                                                                                max-height: 28px;
+                                                                                width: 28px;
+                                                                                height: 28px;
+                                                                                border-radius: 100%;
+                                                                                display: flex;
+                                                                                align-items: center;
+                                                                                justify-content: center;
+                                                                                color: white;
+        
+                                                                                svg{
+                                                                                    fill: white;
+                                                                                    width: 16px;
+                                                                                    height: 16px;
+                                                                                }
+                                                                            }
+                                                                        }
+        
+                                                                        ._24dr{
+                                                                            cursor: pointer;
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            padding-right: 11px;
+                                                                            background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white 30%);
+                                                                            border-radius: 0px 4px 4px 0;
+        
+                                                                            ._1lxA{
+                                                                                position: relative;
+                                                                                display: block;
+                                                                                height: 8px;
+                                                                                width: 8px;
+                                                                                margin-top: -2px;
+                                                                                border: 2px solid #bbcdd8;
+                                                                                border-right-width: 0;
+                                                                                border-top-width: 0;
+                                                                                transform: rotate(
+                                                                                    -45deg);
+                                                                                transition: all .2s ease-in-out;
+                                                                            }
+                                                                        }
+                                                                    }
+        
+                                                                    ._1BZ3.open{
+                                                                        ._24dr{
+                                                                            ._1lxA{
+                                                                                transform: rotate(135deg);
+                                                                                border-color: #324c5b;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+        
+                                                                .Select-menu-outer-wrapper{
+                                                                    position: absolute;
+                                                                    top: 41px;
+                                                                    left: 0;
+                                                                    width: 300%;
+                                                                    height: auto;
+                                                                    max-height: 300px;
+                                                                    overflow: auto;
+                                                                    border: 1px solid #bbcdd8;
+                                                                    border-radius: 4px;
+                                                                    background-color: white;
+                                                                    padding: 15px;
+                                                                    display: none; 
+                                                                    grid-template-columns: auto auto auto;
+                                                                    grid-row-gap: 20px;
+        
+                                                                    ._2s9x{
+                                                                        padding: 0;
+                                                                        background: none;
+                                                                        border: none;
+                                                                        flex-basis: 33.33%;
+                                                                        display: flex;
+                                                                        justify-content: center;
+        
+                                                                        span{
+                                                                            display: block;
+                                                                            height: 40px;
+                                                                            width: 40px;
+                                                                            border-radius: 100%;
+                                                                            padding: 0;
+                                                                            border: none;
+                                                                            position: relative;
+        
+                                                                            svg{
+                                                                                position: absolute;
+                                                                                top: 14%;
+                                                                                left: 18%;
+                                                                                fill: white;
+                                                                                width: 25px;
+                                                                                height: 25px;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+        
+                                    ._3fS2.o-cw._1Nti{
+                                        opacity: 1;
+                                        pointer-events: all;
+                                        display: initial;
+                                        flex-basis: 50%;
+                                        max-width: 50%;
+        
+                                        .iLEV.IhHS{
+                                            display: block;
+                                            position: relative;
+        
+                                            .BVod{
+                                                display: flex;
+        
+                                                ._1Baa.inline.IhHS{
+                                                    margin-bottom: 3px;
+                                                    font-size: 12px;
+                                                    color: #7b93a4;
+                                                    flex-grow: 1;
+                                                    user-select: none;
+                                                    cursor: pointer;
+                                                }
+                                            }
+        
+                                            ._3Iet.IhHS{
+                                                display: flex;
+                                                width: 100%;
+                                                border-radius: 4px;
+                                                align-items: stretch;
+                                                border: 1px solid transparent;
+                                                background-color: #fff;
+                                                border-color: #e5ebee;
+                                                color: #324c5b;
+        
+                                                &:hover{
+                                                    border-color: #bbcdd8;
+                                                }
+        
+                                                ._2ieP{
+                                                    display: flex;
+                                                    align-items: stretch;
+                                                    width: 100%;
+                                                    flex-grow: 1;
+        
+                                                    ._1mYU.required{
+                                                        width: 100%;
+                                                        padding: 0 8px;
+                                                        background-color: transparent;
+                                                        border: none;
+                                                        font-size: 14px;
+                                                        height: 36px;
+                                                        outline: none;
+                                                        line-height: 36px;
+                                                        transition: color .2s ease-in-out;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+        
+                                    ._3fS2.o-cw._1B3o1{
+                                        opacity: 1;
+                                        pointer-events: all;
+                                        display: initial;
+                                        flex-basis: 25%;
+                                        max-width: 25%;
+        
+                                        ._3SdL._2_oj {
+                                            background-color: #12c48b;
+                                            color: #fff;
+                                            transition: all .2s ease-in-out;
+                                            height: 38px;
+                                            position: relative;
+                                            display: block;
+                                            line-height: 34px;
+                                            width: 100%;
+                                            padding: 0 8px;
+                                            border-radius: 4px;
+                                            text-align: center;
+                                            text-decoration: none;
+                                            cursor: pointer;
+                                            outline: none;
+                                            font-size: 14px;
+                                            font-weight: 600;
+                                            border: none;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;
+        
+                                            &:disabled{
+                                                background-color: #e5ebee;
+                                                color: #7b93a4;
+                                                box-shadow: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                ._2XTe{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    pointer-events: none;
+                    opacity: 0;
+                    background: rgba(0, 0, 0, .6);
+                    z-index: 800;
+                    width: 100vw;
+                }
+            }
+
+            .jcQj._2Xou{
+                ._3Vhx{
+                    display: none;
+                }
+
+                ._33BO{
+                    display: block;
+                }
+
+                ._2XTe._2Gxn{
+                    opacity: .6;
+                    pointer-events: all;
+                    transition: opacity .3s;
+                }
+            }
+        }
+    }
+}
+
+._2GnZ{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    .I7xv{
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+
+        ._3-9b._3NXo{
+            min-width: 64px;
+            min-height: 64px;
+            max-height: 64px;
+            width: 64px;
+            height: 64px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+            img{
+                width: 64px;
+                height: 64px;
+                object-fit: cover;
+            }
+        }
+    }
+}
