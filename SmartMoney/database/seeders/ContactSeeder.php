@@ -2,19 +2,19 @@
 
 namespace Database\Seeders;
 
+use App\Models\Contact;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class ContactSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        $this->call(UserSeeder::class);
-        $this->call(ContactSeeder::class);
+        Contact::factory(20)->create();
     }
 }
