@@ -21,7 +21,7 @@ class CreateContactsTable extends Migration
             $table->decimal('phone');
             $table->string('address');
             $table->string('photo')->nullable();
-           
+
         });
     }
 
