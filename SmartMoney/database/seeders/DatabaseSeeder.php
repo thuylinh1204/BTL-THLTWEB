@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\User;
+use App\Models\Wallet;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -15,6 +16,10 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(UserSeeder::class);
-        $this->call(ContactSeeder::class);
+        $this->call(BudgetSeeder::class);
+        $this->call(WalletSeeder::class);
+        $this->call(TransactionSeeder::class);
+        $this->call(CategorySeeder::class);
+        $this->call(LabelSeeder::class);
     }
 }

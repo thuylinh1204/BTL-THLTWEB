@@ -24,10 +24,6 @@ class CreateTransactionsTable extends Migration
             $table->string("photo")->nullable();
             $table->date("end_date")->nullable();
             $table->string("reminder");
-            $table->unsignedInteger('user_id');
-            $table->unsignedInteger('wallet_id');
-            $table->unsignedInteger('budget_id');
-
         });
 
 

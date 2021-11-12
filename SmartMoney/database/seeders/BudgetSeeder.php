@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Budget;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class BudgetSeeder extends Seeder
@@ -13,6 +15,6 @@ class BudgetSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Budget::factory(20)->create();
     }
 }

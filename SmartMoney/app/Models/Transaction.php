@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class Budget extends Model
+class Transaction extends Model
 {
     use HasApiTokens, HasFactory, Notifiable;
 
@@ -17,17 +17,13 @@ class Budget extends Model
      * @var string[]
      */
     protected $fillable = [
-        'title',
+        'date',
+        'note',
         'amount',
         'currency',
         'recurrence',
-        'start_date',
-        'reminder',
+        'photo',
         'end_date',
-
+        'reminder',
     ];
-    public function budget_user()
-    {
-        return $this->belongsTo(Budget::class, 'user_id', 'id');
-    }
 }

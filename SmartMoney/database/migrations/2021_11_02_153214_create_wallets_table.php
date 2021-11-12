@@ -19,7 +19,6 @@ class CreateWalletsTable extends Migration
             $table->string("name");
             $table->decimal("initial_balance");
             $table->string("currency")->default("VND");
-            $table->unsignedInteger('user_id');
         });
     }
 

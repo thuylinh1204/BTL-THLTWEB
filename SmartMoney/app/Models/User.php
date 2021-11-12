@@ -20,6 +20,11 @@ class User extends Model
         'role',
         'email',
         'password',
+        'name',
+        'birthday',
+        'address',
+        'phone',
+        'photo',
     ];
 
     /**
@@ -41,17 +46,14 @@ class User extends Model
         'email_verified_at' => 'datetime',
     ];
 
-//    public function wallets()
-//    {
-//        return $this->hasMany(Wallet::class, 'user_id', 'id');
-//    }
-//
-//    public function budgets()
-//    {
-//        return $this->hasMany(Budget::class, 'user_id', 'id');
-//    }
-    public function contact()
+    public function wallets()
     {
-        return $this->hasOne(User::class, 'user_id','id');
+        return $this->hasMany(Wallet::class, 'user_id', 'id');
     }
+
+    public function budgets()
+    {
+        return $this->hasMany(Budget::class, 'user_id', 'id');
+    }
+
 }

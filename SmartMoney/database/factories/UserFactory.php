@@ -28,6 +28,11 @@ class UserFactory extends Factory
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'role' => rand(0, 1) ? 'User' : 'Admin',
             'remember_token' => Str::random(10),
+            'name' => $this->faker->name(),
+            'birthday'=>$this->faker-> date(),
+            'phone' => $this->faker->randomDigit(),
+            'address' => $this->faker->address(),
+            'photo' => $this->faker->image('public/user/user_img', 640, 480, null, false),
         ];
     }
 

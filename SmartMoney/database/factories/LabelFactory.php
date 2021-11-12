@@ -5,7 +5,7 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
-class WalletFactory extends Factory
+class LabelFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -15,9 +15,7 @@ class WalletFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->name(),
-            'initial_balance'=>$this->faker->randomNumber(5),
-            'currency'=>'VNĐ',
+            'title'=>  Str::random(10),
         ];
     }
 }
