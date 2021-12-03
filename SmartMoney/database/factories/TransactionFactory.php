@@ -15,7 +15,7 @@ class TransactionFactory extends Factory
     public function definition()
     {
         return [
-
+            'wallet_id'=>$this->faker->randomNumber(3),
             'amount'=>$this->faker->randomNumber(5),
             'currency'=>'VNĐ',
             'recurrence'=> rand(0, 1) ? '1 week' : '1 month',

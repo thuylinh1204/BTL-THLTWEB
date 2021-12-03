@@ -23,6 +23,7 @@ class CreateBudgetsTable extends Migration
             $table->date("start_date");
             $table->string("reminder");
             $table->date("end_date");
+            $table->integer('user_id');
 
         });
     }

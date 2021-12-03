@@ -21,5 +21,8 @@ class Category extends Model
         'title',
         'type',
         'color',
+        'create_by',
     ];
+
+
 }

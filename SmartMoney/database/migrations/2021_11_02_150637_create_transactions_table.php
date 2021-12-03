@@ -24,6 +24,7 @@ class CreateTransactionsTable extends Migration
             $table->string("photo")->nullable();
             $table->date("end_date")->nullable();
             $table->string("reminder");
+            $table->integer('wallet_id');
         });
 
 

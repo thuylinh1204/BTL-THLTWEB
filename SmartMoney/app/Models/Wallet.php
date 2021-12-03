@@ -20,6 +20,7 @@ class Wallet extends Model
         'name',
         'initial_balance',
         'currency',
+        'user_id',
     ];
 
 

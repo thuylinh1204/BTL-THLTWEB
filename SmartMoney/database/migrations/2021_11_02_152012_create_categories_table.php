@@ -20,6 +20,7 @@ class CreateCategoriesTable extends Migration
             $table->string('title');
             $table->string('type');
             $table->text('color')->nullable();
+            $table->integer('create_by');
         });
         Schema::create('transaction_categories', function (Blueprint $table) {
             $table->id();

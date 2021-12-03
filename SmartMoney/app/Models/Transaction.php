@@ -25,5 +25,6 @@ class Transaction extends Model
         'photo',
         'end_date',
         'reminder',
+        'wallet_id',
     ];
 }

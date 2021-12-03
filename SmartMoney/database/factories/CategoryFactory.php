@@ -18,7 +18,7 @@ class CategoryFactory extends Factory
 
             'title'=>  Str::random(10),
             'type' =>    rand(0, 1) ? 'Income' : 'Outcome',
-
+            'create_by'=> rand(0, 5) ,
         ];
     }
 }

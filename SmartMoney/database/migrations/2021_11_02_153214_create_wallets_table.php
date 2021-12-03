@@ -14,11 +14,12 @@ class CreateWalletsTable extends Migration
     public function up()
     {
         Schema::create('wallets', function (Blueprint $table) {
-            $table->id();
+            $table->integerIncrements('id');
             $table->timestamps();
             $table->string("name");
             $table->decimal("initial_balance");
             $table->string("currency")->default("VND");
+            $table->integer('user_id');
         });
     }
 

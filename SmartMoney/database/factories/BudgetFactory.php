@@ -22,6 +22,7 @@ class BudgetFactory extends Factory
             'start_date'=>$this->faker->date(),
             'reminder'=> Str::random(10),
             'end_date'=>$this->faker->date(),
+            'user_id'=>$this->faker->randomNumber(2),
         ];
     }
 }

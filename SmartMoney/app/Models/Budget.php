@@ -24,6 +24,7 @@ class Budget extends Model
         'start_date',
         'reminder',
         'end_date',
+        'user_id',
 
     ];
     public function budget_user()

@@ -18,6 +18,7 @@ class WalletFactory extends Factory
             'name' => $this->faker->name(),
             'initial_balance'=>$this->faker->randomNumber(5),
             'currency'=>'VNĐ',
+            'user_id' =>  $this->faker->randomNumber(2),
         ];
     }
 }
