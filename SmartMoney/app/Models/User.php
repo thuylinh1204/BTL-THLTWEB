@@ -20,11 +20,13 @@ class User extends Model
         'role',
         'email',
         'password',
-        'name',
         'birthday',
         'address',
         'phone',
         'photo',
+        'first_name',
+        'last_name',
+        'gender',
     ];
 
     /**
